@@ -1,0 +1,214 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+nav img{
+  height: 125px;
+}
+
+nav li a{
+  font-weight: bold;
+}
+
+blockquote{
+  padding-top:5px;
+  padding-bottom:  5px;
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #03a9f4;
+}
+.page-footer{
+  color: whitesmoke;
+}
+#index-banner{
+    background-image: url(../img/monter.jpg);
+    min-height: 72%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#index-banner h1{
+  color: white;
+}
+
+#home-pricing-price {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.nav-bg {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,207cca+31,2989d8+50,1e5799+100 */
+  background: rgb(125,185,232); /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(125,185,232,1) 0%, rgba(32,124,202,1) 31%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(125,185,232,1) 0%,rgba(32,124,202,1) 31%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(125,185,232,1) 0%,rgba(32,124,202,1) 31%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 */
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.header{
+  color: white;
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
+}
+
+.text-stin{
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, 1);
+}
+
+.sedepozadi{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+0,ffffff+100 */
+  background: rgb(234,234,234); /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(234,234,234,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(234,234,234,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.parallax img {
+      width: 100%;
+}
+
+.parallax-container {
+      height: 400px;
+    }
+
+.section.no-pad-bot{
+  width: 100%;
+}
+
+.card-image .titulek{
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.37);
+    position: absolute;
+    z-index: 2000;
+}
+
+/*.card:hover{
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  transform: scale(1.03);
+  cursor: pointer;
+}*/
+
+.card-title{
+  font-weight:bold;
+}
+.card .card-content {
+    padding: 10px 5px;
+    border-radius: 0 0 2px 2px;
+    text-align: center;
+}
+.card{
+background-color: rgba(255, 255, 255, 0);
+transition: none;
+border: none;
+box-shadow: none;
+max-height: 180px;
+overflow: hidden;
+}
+.reference{
+  padding: 20px 0 75px 0;
+}
+
+.reference .card .card-content p {
+    margin: 0;
+    color: grey;
+}
+
+.cenik{
+  padding-bottom: 50px;
+}
+.cenik h5, .reference h5, .told-about h5{
+  font-size: 3.08rem;
+  padding-top: 50px;
+}
+
+.reference h6{
+  color:#5d5d5d;
+  margin-top: 30px;
+}
+
+.spacer {
+    height: 2rem;
+    width: 100%;
+}
+
+.uvozovky{
+  margin-bottom: 25px;
+}
+.uvozovky img{
+  margin-right: 20%°;
+}
+
+.citator  {
+  color: grey;
+}
+
+.divider-big {
+    margin: 8rem 0rem;
+}
+
+.divider, .divider-big {
+    height: 1px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+}
+
+.input-field label {
+     color: #fdfdfd;
+   }
+ /* label focus color */
+ .input-field input[type=text]:focus + label,  .input-field input[type=email]:focus + label,  .input-field textarea:focus + label {
+   color: #d04d00;
+ }
+ /* label underline focus color */
+ .input-field input[type=text]:focus, .input-field input[type=email]:focus, .input-field textarea:focus {
+   border-bottom: 1px solid #d04d00;
+   box-shadow: 0 1px 0 0 #d04d00;
+ }
+ .input-field input[type=text], .input-field input[type=email], .input-field textarea {
+   border-bottom: 1px solid #c57600;
+ box-shadow: 0 1px 0 0 #c57600;
+ }
+
+textarea.materialize-textarea:focus:not([readonly]) {
+   border-bottom: 1px solid #d04d00;
+   box-shadow: 0 1px 0 0 #d04d00;
+ }
+textarea.materialize-textarea:focus:not([readonly]) + label{
+   color: #d04d00;
+ }
+
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+   color: #d04d00;
+ }
+
+ .carousel.carousel-slider {
+    top: 0;
+    left: 0;
+    height: 0;
+    height: auto;
+    min-height: 400px;
+}
+
+
+.bx-wrapper {
+    -moz-box-shadow:none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: none;
+}
